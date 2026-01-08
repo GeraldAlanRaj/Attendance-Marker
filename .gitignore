@@ -2,3 +2,5 @@ frontend/.env
 backend/.env
 backend/node_modules
 .DS_Store
+Screenshot.png
+AG1_Details.json
