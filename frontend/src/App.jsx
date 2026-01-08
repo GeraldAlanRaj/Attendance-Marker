@@ -45,10 +45,31 @@ function App() {
 
       <br />
 
-      <button onClick={updateAttendance}>Update Attendance</button>
-      <button onClick={downloadExcel} style={{ marginLeft: "10px" }}>
-        Download Excel
-      </button>
+      <button
+  style={{
+    cursor: "pointer",
+    padding: "12px 24px",
+    fontSize: "16px",
+    borderRadius: "6px",
+  }}
+  onClick={updateAttendance}
+>
+  Update Attendance
+</button>
+
+<button
+  style={{
+    cursor: "pointer",
+    padding: "12px 24px",
+    fontSize: "16px",
+    borderRadius: "6px",
+    marginLeft: "10px",
+  }}
+  onClick={downloadExcel}
+>
+  Download Excel
+</button>
+
     </div>
   );
 }
